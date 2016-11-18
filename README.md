@@ -1,7 +1,6 @@
 # docker-xml-and-svg-tools
 Docker Image with XML and SVG Tools to play with SVGs
 
-
 ## Usage
 
 If you have something like **`myproject/convert-icons.sh`**
@@ -23,4 +22,4 @@ To create `myproject/build/foo-32.png`
 
 ### License
 
-  * Dockerfile and Image is provided under [MIT License](https://github.com/codeclou/docker-xml-and-svg-tools/edit/master/LICENSE.md)
+  * Dockerfile and Image is provided under [MIT License](https://github.com/codeclou/docker-xml-and-svg-tools/blob/master/LICENSE.md)
