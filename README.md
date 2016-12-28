@@ -1,7 +1,12 @@
 # docker-xml-and-svg-tools
+
 Docker Image with XML and SVG Tools to play with SVGs
 
-## Usage
+![](https://codeclou.github.io/doc/docker-warranty.svg?v5)
+
+-----
+
+### Usage
 
 If you have something like **`myproject/convert-icons.sh`**
 
@@ -15,10 +20,15 @@ And a folder `myproject/icons/` with a `foo.svg` you can do
 
 ```
 cd myproject
-docker run --tty --volume $(pwd)/:/icons/ codeclou/docker-xml-and-svg-tools:latest bash /icons/convert-icons.sh
+docker run \
+    --tty \
+    --volume $(pwd)/:/icons/ \
+    codeclou/docker-xml-and-svg-tools:latest bash /icons/convert-icons.sh
 ```
 
 To create `myproject/build/foo-32.png`
+
+-----
 
 ### License
 
