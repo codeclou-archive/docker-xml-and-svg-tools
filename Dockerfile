@@ -4,6 +4,7 @@ FROM alpine:3.5
 # BASE PACKAGES
 #
 RUN apk add --no-cache \
+            bash \
             xmlstarlet \
             librsvg && \
     ln -s /usr/bin/rsvg-convert /usr/local/bin/rsvg && \
