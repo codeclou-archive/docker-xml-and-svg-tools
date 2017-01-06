@@ -1,16 +1,21 @@
-FROM ubuntu:14.04
+FROM alpine:3.5
 
 #
-# PACKAGES
+# BASE PACKAGES
 #
-RUN sudo apt-get update
-RUN sudo apt-get -y install xmlstarlet
-RUN sudo apt-get -y install librsvg2-bin
+RUN apk add --no-cache \
+            xmlstarlet \
+            librsvg && \
+    ln -s /usr/bin/rsvg-convert /usr/local/bin/rsvg && \
+    addgroup -g 10777 xmlworker && \
+    adduser -D -G xmlworker -u 10777 xmlworker && \
+    mkdir /icons/ && \
+    chown xmlworker:xmlworker /icons
 
-RUN mkdir /icons/
+#
+# RUN
+#
+USER xmlworker
+VOLUME ["/icons/"]
 WORKDIR /icons/
-
-#
-# WILL BE OVERWRITTEN
-#
-CMD echo "I work :)"
+CMD ["rsvg", "--version"]
