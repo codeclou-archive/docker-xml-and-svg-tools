@@ -35,7 +35,7 @@ docker run \
     -i -t \
     -v $(pwd)/demo/:/icons/ \
     codeclou/docker-xml-and-svg-tools:latest \
-    bash /icons/convert-icons.sh
+    sh /icons/convert-icons.sh
 ```
 
 To create `demo/build/circle-32.png` from the svg.
