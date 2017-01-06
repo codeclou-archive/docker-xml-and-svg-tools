@@ -1,6 +1,6 @@
 # docker-xml-and-svg-tools
 
-[![](https://codeclou.github.io/doc/badges/generated/docker-image-size-25.svg)](https://hub.docker.com/r/codeclou/docker-xml-and-svg-tools/tags/) [![](https://codeclou.github.io/doc/badges/generated/docker-from-alpine-3.5.svg)](https://www.ubuntu.com/) [![](https://codeclou.github.io/doc/badges/generated/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
+[![](https://codeclou.github.io/doc/badges/generated/docker-image-size-10.svg)](https://hub.docker.com/r/codeclou/docker-xml-and-svg-tools/tags/) [![](https://codeclou.github.io/doc/badges/generated/docker-from-alpine-3.5.svg)](https://www.ubuntu.com/) [![](https://codeclou.github.io/doc/badges/generated/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
 
 Docker-Image with XML and SVG Tools to play with SVGs.
 You can use `xmlstarlet` and `rsvg`  binaries.
