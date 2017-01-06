@@ -23,9 +23,9 @@ You can use `xmlstarlet` and `rsvg`  binaries.
 If you have something like **`demo/convert-icons.sh`**. (See demo folder)
 
 ```
-#!/bin/bash
+#!/bin/sh
 
-rsvg -w 32 -h 32 /icons/icons/circle.svg /icons/build/circle-32.png
+rsvg -w 32 -h 32 /icons/icons/circle.svg -o /icons/build/circle-32.png
 ```
 
 And a folder `demo/icons/` with a `circle.svg` you can do
