@@ -1,5 +1,7 @@
 # docker-xml-and-svg-tools
 
+## :bangbang: Deprecated and Discontinued :bangbang:
+
 [![](https://codeclou.github.io/doc/badges/generated/docker-image-size-10.svg)](https://hub.docker.com/r/codeclou/docker-xml-and-svg-tools/tags/) [![](https://codeclou.github.io/doc/badges/generated/docker-from-alpine-3.5.svg)](https://www.ubuntu.com/) [![](https://codeclou.github.io/doc/badges/generated/docker-run-as-non-root.svg)](https://docs.docker.com/engine/reference/builder/#/user)
 
 Docker-Image with XML and SVG Tools to play with SVGs.
